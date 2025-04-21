@@ -1,0 +1,37 @@
+
+  .hero h1 {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    font-weight: bold;
+  }
+  .forum-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .forum-card:hover {
+    background: #f8f9fa;
+  }
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ccc;
+    margin-right: 10px;
+  }
+  .comment-btn {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  .activity-box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  .navbar-nav .nav-link {
+    margin-right: 15px;
+  }

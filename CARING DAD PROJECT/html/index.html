@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2e0b2e6e1.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body class="bg-white text-dark">
+
+  <!-- Header -->
+  <header class="header-banner text-white">
+    <div class="header-overlay"></div>
+    <div class="container-fluid header-content py-3 d-flex justify-content-between align-items-center">
+      <a href="index.html">
+        <div class="d-flex align-items-center gap-3">
+          <img src="../images/logo.png" alt="logo" height="40" />
+          <span class="fw-bold fs-4">Caring Dad</span>
+        </div>
+      </a>
+      <nav class="d-flex gap-3 fw-semibold">
+        <a href="index.html" class="text-white text-decoration-none">Home</a>
+        <a href="workshops.html" class="text-white text-decoration-none">Workshops</a>
+        <a href="activity.html" class="text-white text-decoration-none">Activities</a>
+        <a href="resources.html" class="text-white text-decoration-none">Resources</a>
+        <a href="forums.html" class="text-white text-decoration-none">Community Forum</a>
+        <button class="btn btn-light btn-sm">Logout</button>
+      </nav>
+    </div>
+    <div class="container header-content text-end mt-5 pt-5">
+      <h2 class="fs-3 fw-bold">
+        Welcome back, Dad! Every steps <br> you take here
+        helps build a <br>stronger bond with your child.
+      </h2>
+    </div>
+  </header>
+ 
+  <!-- Proven Solutions -->
+  <section class="py-5 text-center">
+    <h3 class="fs-3 fw-bold mb-4"  style="color: #11178b;">Our Proven Solutions</h3>
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-6 col-md-3 solution" style="height: 320px;">
+          <a href="workshops.html">
+            <div class="text-white rounded-3 d-flex flex-column justify-content-end p-3 h-100" style="background: url('../images/father1.jpg') center/cover;">
+              <h4 class="fw-bold"  >Fatherhood Programs</h4>
+              <p class="small mt-1">Our program is designed to support, educate, and empower men to be nurturing and responsible fathers.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-3 solution">
+          <a href="forums.html">
+            <div class="text-white rounded-3 d-flex flex-column justify-content-end p-3 h-100" style="background: url('../images/forum.jpg') center/cover;">
+              <h4 class="fw-bold" >Online Forum</h4>
+              <p class="small mt-1">Every dad has something to offer and ask in our open, vibrant community.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-3 solution">
+          <a href="activity.html">
+            <div class="text-white rounded-3 d-flex flex-column justify-content-end p-3 h-100" style="background: url('../images/activity.jpg') center/cover;">
+              <h4 class="fw-bold"  >Father and Son Activities</h4>
+              <p class="small mt-1">Create lasting memories together with meaningful virtual bonding sessions.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-3 solution">
+          <a href="resources.html">
+            <div class="text-white rounded-3 d-flex flex-column justify-content-end p-3 h-100" style="background: url('../images/caring.jpg') center/cover;">
+              <h4 class="fw-bold">Caring Dads</h4>
+              <p class="small mt-1">Support, laugh, and grow together through the parenting experience.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-md-6 position-relative d-flex justify-content-center min-vh-50">
+        <!-- Vertical stack -->
+        <div class="vertical-images">
+          <img src="../images/care1.jpg" class="img-thumbnail top-image" width="96" height="96" />
+          <img src="../images/care2.jpg" class="img-thumbnail center-image" width="96" height="96" />
+          <img src="../images/care3.jpg" class="img-thumbnail bot-image" width="96" height="96" />
+        </div>
+        <!-- Circle image -->
+        <div class="callout-circle">
+          <img src="../images/caring.jpg" class="w-100 h-100 object-fit-cover" />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3 class="fw-bold mb-3"  style="color: #11178b;">
+          Encourage dads to take action by<br />
+          <span class="d-block mt-1">learning or reaching out — with warm,</span>
+          <span class="d-block mt-1">inviting text and a button.</span>
+        </h3>
+        <p>
+          We’re here to guide you on your journey to better fatherhood.
+          If you're looking for training, emotional support, or simply want
+          to connect with other dads, click below and start your transformation with us.
+        </p>
+        <button class="btn btn-primary mt-3">Start Your Journey</button>
+      </div>
+    </div>
+  </section>
+
+<!-- Featured Dads -->
+<section class="py-5">
+    <h3 class="text-center fw-bold mb-4"  style="color: #11178b;">Featured Caring Dads</h3>
+    <div class="container">
+      <div class="row g-4">
+        <!--Card 1-->
+        <div class="col-md-4">
+            <div class="video-card position-relative rounded overflow-hidden shadow">
+              <div class="ratio ratio-16x9">
+                <div id="player1"></div>
+              </div>
+              <div class="video-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white text-center" data-playerid="player1">
+                <!-- <div class="overlay-text fs-5 fw-bold px-3">Meet John – Turning Moments into Memories</div> -->
+                <button class="play-btn btn btn-light rounded-circle mt-3 d-none">
+                  <i class="fas fa-play fs-4"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--Card 2-->
+        <div class="col-md-4">
+            <div class="video-card position-relative rounded overflow-hidden shadow">
+              <div class="ratio ratio-16x9">
+                <div id="player2"></div>
+              </div>
+              <div class="video-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white text-center" data-playerid="player2">
+                <!-- <div class="overlay-text fs-5 fw-bold px-3">Meet John – Turning Moments into Memories</div> -->
+                <button class="play-btn btn btn-light rounded-circle mt-3 d-none">
+                  <i class="fas fa-play fs-4"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--Card 3-->
+        <div class="col-md-4">
+            <div class="video-card position-relative rounded overflow-hidden shadow">
+              <div class="ratio ratio-16x9">
+                <div id="player3"></div>
+              </div>
+              <div class="video-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white text-center" data-playerid="player3">
+                <!-- <div class="overlay-text fs-5 fw-bold px-3">Meet John – Turning Moments into Memories</div> -->
+                <button class="play-btn btn btn-light rounded-circle mt-3 d-none">
+                  <i class="fas fa-play fs-4"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--Card 4-->
+        <div class="col-md-4">
+            <div class="video-card position-relative rounded overflow-hidden shadow">
+              <div class="ratio ratio-16x9">
+                <div id="player4"></div>
+              </div>
+              <div class="video-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white text-center" data-playerid="player4">
+                <!-- <div class="overlay-text fs-5 fw-bold px-3">Meet John – Turning Moments into Memories</div> -->
+                <button class="play-btn btn btn-light rounded-circle mt-3 d-none">
+                  <i class="fas fa-play fs-4"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--Card 5-->
+        <div class="col-md-4">
+            <div class="video-card position-relative rounded overflow-hidden shadow">
+              <div class="ratio ratio-16x9">
+                <div id="player5"></div>
+              </div>
+              <div class="video-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white text-center" data-playerid="player5">
+                <!-- <div class="overlay-text fs-5 fw-bold px-3">Meet John – Turning Moments into Memories</div> -->
+                <button class="play-btn btn btn-light rounded-circle mt-3 d-none">
+                  <i class="fas fa-play fs-4"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--Card 6-->
+        <div class="col-md-4">
+            <div class="video-card position-relative rounded overflow-hidden shadow">
+              <div class="ratio ratio-16x9">
+                <div id="player6"></div>
+              </div>
+              <div class="video-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white text-center" data-playerid="player6">
+                <!-- <div class="overlay-text fs-5 fw-bold px-3">Meet John – Turning Moments into Memories</div> -->
+                <button class="play-btn btn btn-light rounded-circle mt-3 d-none">
+                  <i class="fas fa-play fs-4"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--Card 7-->
+        <div class="col-md-4">
+            <div class="video-card position-relative rounded overflow-hidden shadow">
+              <div class="ratio ratio-16x9">
+                <div id="player7"></div>
+              </div>
+              <div class="video-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white text-center" data-playerid="player7">
+                <!-- <div class="overlay-text fs-5 fw-bold px-3">Meet John – Turning Moments into Memories</div> -->
+                <button class="play-btn btn btn-light rounded-circle mt-3 d-none">
+                  <i class="fas fa-play fs-4"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--Card 8-->
+        <div class="col-md-4">
+            <div class="video-card position-relative rounded overflow-hidden shadow">
+              <div class="ratio ratio-16x9">
+                <div id="player8"></div>
+              </div>
+              <div class="video-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white text-center" data-playerid="player8">
+                <!-- <div class="overlay-text fs-5 fw-bold px-3">Meet John – Turning Moments into Memories</div> -->
+                <button class="play-btn btn btn-light rounded-circle mt-3 d-none">
+                  <i class="fas fa-play fs-4"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--Card 9-->
+        <div class="col-md-4">
+            <div class="video-card position-relative rounded overflow-hidden shadow">
+              <div class="ratio ratio-16x9">
+                <div id="player9"></div>
+              </div>
+              <div class="video-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white text-center" data-playerid="player9">
+                <!-- <div class="overlay-text fs-5 fw-bold px-3">Meet John – Turning Moments into Memories</div> -->
+                <button class="play-btn btn btn-light rounded-circle mt-3 d-none">
+                  <i class="fas fa-play fs-4"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!--wide blue section-->
+  <section class="bg-primary">
+    <div class="container-fluid section-padding">
+        <div class="row align-items-center">
+          <!-- Text content -->
+          <div class="col-lg 1"></div>
+          <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+            <h2 class="fw-bold"  style="color: #e4e4e4;">Not Sure Where to Start?</h2>
+            <p class="mt-3 fs-5" style="color: #e4e4e4;">
+              Your time and energy are limited. You have to be strategic with where you dedicate your
+              resources. That’s why our strengths-based solutions approach the major societal issues
+              plaguing your communities at their core.
+            </p>
+          </div>
+          <div class="col-lg-1"></div>
+          <!-- Buttons -->
+          <div class="col-lg-4 col-md-5 text-md-end text-start">
+            <div class="d-grid gap-3">
+              <button class="btn btn-yellow px-4 py-2 rounded" style="display: block; color: #e4e4e4;">Make The Biggest Impact</button>
+              <button class="btn btn-outline-dark px-4 py-2 rounded" style="display: block; color: #e4e4e4;">Why Father Inclusion Matters</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  
+<!-- Testimonials Section -->
+<section class="bg-light py-5">
+    <h3 class="text-center fw-bold mb-5"  style="color: #11178b;">New father’s testimonials?</h3>
+    <div id="testimonialCarousel" class="carousel slide testimonial-box" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Testimonial 1 -->
+        <div class="carousel-item active">
+          <div class="bg-white p-4 rounded shadow text-center"  style="outline: 2px solid #04095d;">
+            <img style="width:80px; height: 80px; margin-top: 0px;" src="../images/father.jpg" class="rounded-circle mb-3" />
+            <h5 class="fw-bold mb-5">Thomas Shelby</h5>
+            <p class="testimonial-quote">“This program changed how I approach fatherhood. Highly recommend to every new dad!”</p>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="carousel-item">
+          <div class="bg-white p-4 rounded shadow text-center"  style="outline: 2px solid #04095d;">
+            <img style="width:80px; height: 80px; margin-top: 0px;" src="../images/father.jpg" class="rounded-circle mb-3" />
+            <h5 class="fw-bold mb-5">John Carter</h5>
+            <p class="testimonial-quote">“The community and resources made me feel supported and confident as a new father.”</p>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="carousel-item">
+          <div class="bg-white p-4 rounded shadow text-center"  style="outline: 2px solid #04095d;">
+            <img style="width:80px; height: 80px; margin-top: 0px;" src="../images/father.jpg" class="rounded-circle mb-3" />
+            <h5 class="fw-bold mb-5">Michael Oduro</h5>
+            <p class="testimonial-quote">“Great platform with real stories and real impact. Helped me connect with other dads.”</p>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5 mt-5">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-4">
+      <div>
+        <img width="100px" height="100px" src="../images/logo.png" alt="">
+        <h5 class="fw-bold fs-2">Caring Dad</h5>
+        <p>promoting parenting in naval</p>
+      </div>
+      <div>
+        <h5 class="fw-bold mb-2">Quick Links</h5>
+        <ul class="list-unstyled small">
+          <li>Contributors</li>
+          <li>Partners</li>
+          <li>Book List</li>
+          <li>Career</li>
+          <li>FAQ</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="fw-bold mb-2">Location</h5>
+        <p class="small">5509 W. Gray Street, Suite 100<br />Tampa, FL 33609<br />(813) 222-8300</p>
+        <div class="d-flex gap-3 fs-5 mt-2">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div>
+        <h5 class="fw-bold mb-2">Email Sign Up</h5>
+        <button class="btn btn-danger mb-2">Subscribe</button><br />
+        <button class="btn btn-dark">Donate</button>
+      </div>
+    </div>
+  </footer>
+<script src="../js/dashboard.js"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

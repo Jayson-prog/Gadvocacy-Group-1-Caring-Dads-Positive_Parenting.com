@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Father-Son Activities | Caring Dads</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+    .activity-tags span {
+      font-size: 0.75rem;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header-banner text-white" style="height: 100px;">
+    <div class="header-overlay"></div>
+    <div class="container-fluid header-content py-3 d-flex justify-content-between align-items-center">
+      <a href="index.html">
+        <div class="d-flex align-items-center gap-3">
+          <img src="../images/logo.png" alt="logo" height="40" />
+          <span class="fw-bold fs-4">Caring Dad</span>
+        </div>
+      </a>
+      <nav class="d-flex gap-3 fw-semibold">
+        <a href="index.html" class="text-black text-decoration-none">Home</a>
+        <a href="workshops.html" class="text-black text-decoration-none">Workshops</a>
+        <a href="activity.html" class="text-black text-decoration-none">Activities</a>
+        <a href="resources.html" class="text-black text-decoration-none">Resources</a>
+        <a href="forums.html" class="text-black text-decoration-none">Community Forum</a>
+        <button class="btn btn-outline-dark btn-sm">Logout</button>
+      </nav>
+    </div>
+    <div class="container header-content text-first mt-5 pt-5" style="margin-bottom: 0%;">
+      <div class="fs-3 fw-bold">
+        <p class="mt-5">Dashboard > Workshops </p>
+        </div>
+    </div>
+  </div>
+
+<!-- Header -->
+<header class="py-4 text-center bg-white shadow-sm">
+  <div class="container">
+    <h2 class="fw-bold">Father-Son Activities</h2>
+    <p class="text-muted">Strengthen your bond through fun and meaningful moments together.</p>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Search activities...">
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Activities Grid -->
+<section class="py-5">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Activity Card -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="../images/diy.jpeg" class="card-img-top" alt="DIY Project">
+          <div class="card-body">
+            <h5 class="card-title">DIY Project</h5>
+            <p class="card-text">Build a birdhouse or toy with your child and learn basic skills.</p>
+            <div class="activity-tags mb-2">
+              <span class="badge bg-secondary">#Creative</span>
+              <span class="badge bg-info text-dark">#Bonding</span>
+            </div>
+            <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#activityModal1">View Details</button>
+          </div>
+        </div>
+      </div>
+      <!-- Sports Challenge Card -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="../images/sport.jpeg" class="card-img-top" alt="Sports Challenge">
+          <div class="card-body">
+            <h5 class="card-title">Sports Challenge</h5>
+            <p class="card-text">Spend time playing basketball, soccer, or any outdoor sport together.</p>
+            <div class="activity-tags mb-2">
+              <span class="badge bg-success">#Outdoor</span>
+              <span class="badge bg-warning text-dark">#Active</span>
+            </div>
+            <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#activityModal2">View Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Story Time Card -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="../images/story.jpeg" class="card-img-top" alt="Story Time">
+          <div class="card-body">
+            <h5 class="card-title">Story Time</h5>
+            <p class="card-text">Read books together or let your child listen to your childhood stories.</p>
+            <div class="activity-tags mb-2">
+              <span class="badge bg-info text-dark">#QuietTime</span>
+              <span class="badge bg-secondary">#EmotionalBond</span>
+            </div>
+            <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#activityModal3">View Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cook Together Card -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="../images/cook.jpeg" class="card-img-top" alt="Cook Together">
+          <div class="card-body">
+            <h5 class="card-title">Cook Together</h5>
+            <p class="card-text">Prepare a simple meal together and enjoy the result as a team.</p>
+            <div class="activity-tags mb-2">
+              <span class="badge bg-danger">#Creative</span>
+              <span class="badge bg-primary">#Fun</span>
+            </div>
+            <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#activityModal4">View Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more cards as needed -->
+
+    </div>
+  </div>
+</section>
+
+<!-- Modal for Activity Details -->
+<div class="modal fade" id="activityModal1" tabindex="-1" aria-labelledby="activityModalLabel1" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">DIY Project with Dad</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/cook.jpeg" class="img-fluid rounded mb-3" alt="Activity Image">
+        <p>Build a simple wooden toy or birdhouse together. Great bonding time with practical learning.</p>
+        <h6>Materials:</h6>
+        <ul>
+          <li>Wood blocks</li>
+          <li>Hammer & nails</li>
+          <li>Paint (optional)</li>
+        </ul>
+        <h6>Steps:</h6>
+        <ol>
+          <li>Choose a design with your child.</li>
+          <li>Measure, cut, and assemble the parts.</li>
+          <li>Decorate it together!</li>
+        </ol>
+        <h6>📤 Upload Your Experience:</h6>
+        <input type="file" class="form-control mb-2">
+        <textarea class="form-control" rows="3" placeholder="Describe what you did..."></textarea>
+        <button class="btn btn-success mt-3">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 2: Sports Challenge -->
+<div class="modal fade" id="activityModal2" tabindex="-1" aria-labelledby="activityModalLabel2" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Weekend Sports Challenge</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/sport.jpeg" class="img-fluid rounded mb-3">
+        <p>Go outside and play a sport your child enjoys! It builds trust and fitness together.</p>
+        <ul>
+          <li>Basketball, soccer, or simple backyard catch</li>
+          <li>Compete in a friendly challenge or team up!</li>
+        </ul>
+        <input type="file" class="form-control mb-2">
+        <textarea class="form-control" rows="3" placeholder="Share what game you played!"></textarea>
+        <button class="btn btn-success mt-2">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3: Story Time -->
+<div class="modal fade" id="activityModal3" tabindex="-1" aria-labelledby="activityModalLabel3" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Story Time</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/story.jpeg" class="img-fluid rounded mb-3">
+        <p>Reading stories or sharing your own experiences is a great way to connect with your child.</p>
+        <ul>
+          <li>Pick a storybook or tell them about your own childhood.</li>
+          <li>Ask them questions to keep it interactive!</li>
+        </ul>
+        <input type="file" class="form-control mb-2">
+        <textarea class="form-control" rows="3" placeholder="What story did you tell or hear today?"></textarea>
+        <button class="btn btn-success mt-2">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 4: Cook Together -->
+<div class="modal fade" id="activityModal4" tabindex="-1" aria-labelledby="activityModalLabel4" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cook a Meal Together</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/cook.jpeg" class="img-fluid rounded mb-3">
+        <p>Choose a simple recipe and prepare it with your child. Let them mix, cut (safely), or plate the food.</p>
+        <ul>
+          <li>Pancakes, sandwiches, or fruit salad</li>
+          <li>Make it fun, and share responsibilities</li>
+        </ul>
+        <input type="file" class="form-control mb-2">
+        <textarea class="form-control" rows="3" placeholder="Upload a photo of your dish or write about it!"></textarea>
+        <button class="btn btn-success mt-2">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5 mt-5">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-4">
+      <div>
+        <img width="100px" height="100px" src="../images/logo.png" alt="">
+        <h5 class="fw-bold fs-2">Caring Dad</h5>
+        <p>promoting parenting in naval</p>
+      </div>
+      <div>
+        <h5 class="fw-bold mb-2">Quick Links</h5>
+        <ul class="list-unstyled small">
+          <li>Contributors</li>
+          <li>Partners</li>
+          <li>Book List</li>
+          <li>Career</li>
+          <li>FAQ</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="fw-bold mb-2">Location</h5>
+        <p class="small">5509 W. Gray Street, Suite 100<br />Tampa, FL 33609<br />(813) 222-8300</p>
+        <div class="d-flex gap-3 fs-5 mt-2">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div>
+        <h5 class="fw-bold mb-2">Email Sign Up</h5>
+        <button class="btn btn-danger mb-2">Subscribe</button><br />
+        <button class="btn btn-dark">Donate</button>
+      </div>
+    </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
